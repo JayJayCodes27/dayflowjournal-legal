@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DayflowJournal Terms of Service v1.2 - Legal terms for using our privacy-focused journaling app.">
+    <meta name="robots" content="index, follow">
+    <title>Terms of Service - DayflowJournal</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.7;
+            color: #1a1a1a;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 50px;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 3px solid #667eea;
+        }
+        
+        h1 {
+            font-size: 36px;
+            margin-bottom: 15px;
+            color: #1a1a1a;
+            font-weight: 700;
+        }
+        
+        .meta {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        
+        .version {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+        
+        h2 {
+            font-size: 26px;
+            margin: 40px 0 20px 0;
+            color: #1a1a1a;
+            font-weight: 700;
+        }
+        
+        h3 {
+            font-size: 20px;
+            margin: 30px 0 15px 0;
+            color: #333;
+            font-weight: 600;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            color: #444;
+        }
+        
+        ul {
+            margin: 15px 0 20px 30px;
+            color: #444;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        strong {
+            color: #1a1a1a;
+            font-weight: 600;
+        }
+        
+        .warning-box {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .warning-box h3 {
+            color: #856404;
+            margin-top: 0;
+        }
+        
+        .critical-box {
+            background: #f8d7da;
+            border-left: 4px solid #dc3545;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .critical-box h3 {
+            color: #721c24;
+            margin-top: 0;
+        }
+        
+        .info-box {
+            background: #d1ecf1;
+            border-left: 4px solid #17a2b8;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .success-box {
+            background: #d4edda;
+            border-left: 4px solid #28a745;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .checklist {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .checklist li {
+            list-style: none;
+            padding-left: 30px;
+            position: relative;
+        }
+        
+        .checklist li:before {
+            content: "✅";
+            position: absolute;
+            left: 0;
+        }
+        
+        .footer {
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 2px solid #e0e0e0;
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .nav-links {
+            text-align: center;
+            margin: 30px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        
+        .nav-links a {
+            margin: 0 15px;
+            padding: 10px 20px;
+            display: inline-block;
+            background: white;
+            border-radius: 6px;
+            transition: all 0.3s;
+        }
+        
+        .nav-links a:hover {
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            transform: translateY(-2px);
+        }
+        
+        .pricing-table {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+        
+        .pricing-table h3 {
+            margin-top: 0;
+            color: #667eea;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px 20px;
+            }
+            
+            h1 {
+                font-size: 28px;
+            }
+            
+            h2 {
+                font-size: 22px;
+            }
+            
+            .nav-links a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                padding: 20px;
+            }
+            
+            .nav-links {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Terms of Service</h1>
+            <div class="meta">
+                <strong>Effective Date:</strong> January 11, 2026<br>
+                <strong>Last Updated:</strong> January 11, 2026
+            </div>
+            <span class="version">Version 1.2</span>
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">← Home</a>
+            <a href="privacy.html">Privacy Policy</a>
+        </div>
+
+        <h2>1. Agreement Overview</h2>
+        <p>These Terms of Service ("Terms") govern your use of the DayflowJournal mobile application ("DayflowJournal", "the App", "we", "us", or "our").</p>
+        <p>By downloading, installing, or using the App, you agree to be bound by these Terms. If you do not agree, you must not use the App.</p>
+        <p>These Terms form a legally binding agreement between you ("you", "your", or "User") and the operator of DayflowJournal.</p>
+
+        <h2>2. Description of the Service</h2>
+        <p>DayflowJournal is a privacy-focused journaling application for iOS devices that allows users to create personal journal entries using handwriting, voice recordings, and typed text, as well as optional mood tracking and organisational features.</p>
+        <p><strong>All journal content is stored locally on your device.</strong> DayflowJournal does not operate user accounts and does not host journal content on external servers.</p>
+
+        <h2>3. Free and Premium Features</h2>
+        
+        <h3>3.1 Free Tier</h3>
+        <p>The free version of DayflowJournal includes access to core journaling features with a <strong>rolling 7-day history limit</strong>. Journal entries older than 7 days may be automatically deleted from your device to enforce this limitation.</p>
+
+        <h3>3.2 Premium Subscription</h3>
+        <p>Premium access unlocks additional features such as unlimited journal history, advanced insights, export tools, and enhanced analysis features.</p>
+        <p>Premium access is available via auto-renewable subscriptions or a one-time lifetime purchase, subject to availability in your region.</p>
+
+        <h2>4. Subscriptions, Billing, and Payments</h2>
+        
+        <h3>4.1 Apple In-App Purchases</h3>
+        <p>All purchases are processed exclusively through Apple's In-App Purchase system and are governed by Apple's Media Services Terms and Conditions.</p>
+        <p><strong>We do not process payments directly and do not have access to your payment details.</strong></p>
+
+        <h3>4.2 Auto-Renewing Subscriptions</h3>
+        <ul>
+            <li>Subscriptions automatically renew unless cancelled at least 24 hours before the end of the current billing period</li>
+            <li>Your Apple ID account will be charged within 24 hours prior to renewal</li>
+            <li>You can manage or cancel subscriptions via iOS Settings → Apple ID → Subscriptions</li>
+        </ul>
+
+        <h3>4.3 Free Trials</h3>
+        <p>Where offered, free trials convert to paid subscriptions unless cancelled before the trial period ends. Any unused portion of a free trial is forfeited upon purchase, in accordance with Apple's rules.</p>
+
+        <h3>4.4 Refunds</h3>
+        <p>All refunds are handled by Apple, not DayflowJournal. Refund eligibility and decisions are determined solely by Apple.</p>
+        <p>To request a refund, visit: <a href="https://reportaproblem.apple.com" target="_blank">https://reportaproblem.apple.com</a></p>
+
+        <h2>5. Eligibility</h2>
+        <p>You must be at least <strong>13 years old</strong> to use the App. If you are under 18, you must have permission from a parent or legal guardian.</p>
+        <p>The App is not directed at children under 13.</p>
+
+        <h2>6. Acceptable Use</h2>
+        <p>You agree to use the App only for lawful, personal, and non-commercial purposes.</p>
+        <p><strong>You must not:</strong></p>
+        <ul>
+            <li>Use the App for unlawful activities</li>
+            <li>Attempt to bypass subscription or security mechanisms</li>
+            <li>Reverse engineer, decompile, or modify the App</li>
+            <li>Use the App in a way that violates applicable laws or regulations</li>
+        </ul>
+        <p>You are solely responsible for the content you create and store in the App.</p>
+
+        <h2>7. Your Content</h2>
+        <p><strong>You retain full ownership of all journal content you create.</strong></p>
+        <p>Because all content is stored locally on your device and not transmitted to our servers:</p>
+        <ul>
+            <li>We do not access, review, or moderate your content</li>
+            <li>We do not claim ownership or a licence over your content</li>
+            <li>You are responsible for ensuring you have the legal right to store any content you add to the App</li>
+        </ul>
+
+        <h2>8. Privacy and Data</h2>
+        <p>Your privacy is fundamental to DayflowJournal.</p>
+        <ul>
+            <li>All journal data is stored locally on your device</li>
+            <li>We do not collect, transmit, or store journal content on external servers</li>
+            <li>If iCloud backup is enabled on your device, backups are managed by Apple, not us</li>
+        </ul>
+        <p>For full details, please review our <a href="privacy.html">Privacy Policy</a>.</p>
+
+        <h2>9. Health and Wellness Disclaimer</h2>
+        
+        <div class="critical-box">
+            <h3>⚠️ DayflowJournal is NOT:</h3>
+            <ul>
+                <li>A medical device or diagnostic tool</li>
+                <li>A substitute for professional mental health care</li>
+                <li>Therapy or counseling services</li>
+                <li>Medical advice or treatment</li>
+            </ul>
+        </div>
+
+        <div class="warning-box">
+            <h3>⚠️ If You Are Experiencing Mental Health Issues:</h3>
+            <ul>
+                <li>Consult a licensed mental health professional immediately</li>
+                <li>Call emergency services (999 in UK, 911 in US) if in crisis</li>
+                <li>Contact a crisis hotline:
+                    <ul>
+                        <li><strong>UK:</strong> Samaritans - 116 123</li>
+                        <li><strong>US:</strong> 988 Suicide & Crisis Lifeline</li>
+                        <li><strong>International:</strong> <a href="https://www.iasp.info/resources/Crisis_Centres/" target="_blank">Crisis Centres Directory</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="info-box">
+            <h3>⚠️ Mood Tracking is Informational Only:</h3>
+            <ul>
+                <li>Not a diagnostic tool for depression, anxiety, or other conditions</li>
+                <li>Insights are observations, not medical advice</li>
+                <li>Do not rely on app insights for medical decisions</li>
+            </ul>
+        </div>
+
+        <div class="info-box">
+            <h3>⚠️ Voice Emotion Analysis is Experimental:</h3>
+            <ul>
+                <li>Accuracy not guaranteed</li>
+                <li>Not validated for clinical use</li>
+                <li>Do not use for diagnostic purposes</li>
+            </ul>
+        </div>
+
+        <h2>10. Availability and Updates</h2>
+        <p>We may update the App from time to time to improve functionality, security, or compatibility.</p>
+        <p>We do not guarantee that:</p>
+        <ul>
+            <li>The App will always be available</li>
+            <li>The App will be error-free</li>
+            <li>All features will remain unchanged indefinitely</li>
+        </ul>
+
+        <h2>11. Termination</h2>
+        <p>You may stop using the App at any time.</p>
+        <p>We may suspend or terminate access to premium features if you materially breach these Terms or if required by law.</p>
+        <p>Termination does not affect your statutory consumer rights.</p>
+
+        <h2>12. Intellectual Property</h2>
+        <p>The App, including its design, branding, and software, is owned by DayflowJournal and protected by intellectual property laws.</p>
+        <p>You are granted a limited, non-exclusive, non-transferable licence to use the App for personal purposes in accordance with these Terms.</p>
+
+        <h2>13. Disclaimers</h2>
+        <p>The App is provided "as is" and "as available", to the maximum extent permitted by law.</p>
+        <p>We do not make warranties regarding accuracy, reliability, availability, or fitness for a particular purpose.</p>
+        <p><strong>Nothing in these Terms limits consumer guarantees that cannot legally be excluded under applicable law.</strong></p>
+
+        <h2>14. Limitation of Liability</h2>
+        
+        <h3>Maximum Liability:</h3>
+        <p>To the maximum extent permitted by law:</p>
+        
+        <p><strong>We Are NOT Liable For:</strong></p>
+        <ul>
+            <li>Data loss due to device failure, app bugs, iOS updates, or user error</li>
+            <li>Indirect, incidental, or consequential damages</li>
+            <li>Lost profits, loss of use, or emotional distress</li>
+            <li>Third-party actions (Apple's refund/account decisions)</li>
+            <li>Device issues (theft, loss, water damage, hardware failure)</li>
+            <li>iOS compatibility changes</li>
+        </ul>
+
+        <h3>Maximum Liability Cap:</h3>
+        <p>Our total liability to you for all claims shall not exceed the <strong>greater of</strong>:</p>
+        <ul>
+            <li>The amount you paid for premium subscriptions in the <strong>12 months</strong> prior to the claim, OR</li>
+            <li><strong>£100 GBP / $100 USD</strong></li>
+        </ul>
+
+        <h3>Exceptions (Cannot Be Limited by Law):</h3>
+        <ul>
+            <li>Death or personal injury caused by negligence</li>
+            <li>Fraud or fraudulent misrepresentation</li>
+            <li>Any liability that cannot be excluded under applicable law</li>
+            <li>Statutory consumer rights (UK Consumer Rights Act 2015, EU consumer protections)</li>
+        </ul>
+
+        <div class="warning-box">
+            <h3>Data Loss Warning:</h3>
+            <p>We strongly recommend:</p>
+            <ul>
+                <li>✅ Enable iCloud Backup in iOS Settings</li>
+                <li>✅ Export journal regularly (premium users)</li>
+                <li>✅ Maintain device backups via Finder/iTunes</li>
+                <li>✅ Test restoring from backup periodically</li>
+            </ul>
+            <p><strong>Free tier automatic 7-day deletion is intentional, not a bug.</strong></p>
+        </div>
+
+        <h2>15. Indemnification</h2>
+        
+        <h3>You Agree to Indemnify Us:</h3>
+        <p>You agree to indemnify, defend, and hold harmless DayflowJournal, its officers, directors, employees, and agents from any claims, damages, losses, liabilities, costs, or expenses (including reasonable legal fees) arising from:</p>
+        <ul>
+            <li>Your use or misuse of the app</li>
+            <li>Your violation of these Terms</li>
+            <li>Your violation of any third-party rights (intellectual property infringement)</li>
+            <li>Content you create in your journal (if it violates laws or third-party rights)</li>
+            <li>Your false representations regarding age, eligibility, or compliance</li>
+            <li>Payment disputes or chargebacks submitted in bad faith</li>
+        </ul>
+
+        <p><strong>What This Means:</strong> If someone sues us because of something you did with the app, you agree to cover our legal costs and any damages.</p>
+        <p><strong>Exception:</strong> You are not required to indemnify us for issues caused solely by our negligence or wrongdoing.</p>
+
+        <h2>16. Governing Law and Jurisdiction</h2>
+        
+        <h3>16.1 Informal Resolution</h3>
+        <p><strong>Before Filing Any Claim:</strong></p>
+        <ol>
+            <li>Contact us at <a href="mailto:legal@dayflowjournal.app">legal@dayflowjournal.app</a></li>
+            <li>Provide detailed description of the dispute</li>
+            <li>Allow 30 days for us to resolve informally</li>
+            <li>Most disputes can be resolved quickly and amicably</li>
+        </ol>
+
+        <h3>16.2 UK Users</h3>
+        <p>These Terms are governed by the laws of <strong>England and Wales</strong>, and disputes are subject to the courts of England and Wales.</p>
+        <p><strong>Consumer Rights:</strong></p>
+        <ul>
+            <li>UK Consumer Rights Act 2015 applies</li>
+            <li>Statutory rights cannot be limited by these Terms</li>
+        </ul>
+
+        <h3>16.3 EU Users</h3>
+        <p>You benefit from mandatory consumer protections under the laws of your country of residence, and disputes may be brought in your local courts.</p>
+        <p><strong>EU Consumer Rights:</strong></p>
+        <ul>
+            <li>EU consumer protection directives apply</li>
+            <li>Online Dispute Resolution: <a href="https://ec.europa.eu/consumers/odr/" target="_blank">https://ec.europa.eu/consumers/odr/</a></li>
+        </ul>
+
+        <h3>16.4 US Users - Arbitration Agreement</h3>
+        <p><strong>Binding Arbitration:</strong> For US users, any dispute arising from these Terms or your use of DayflowJournal shall be resolved through <strong>binding arbitration</strong>, except:</p>
+        
+        <p><strong>Exceptions to Arbitration:</strong></p>
+        <ul>
+            <li>Small claims court disputes (under $10,000)</li>
+            <li>Intellectual property disputes</li>
+            <li>Emergency equitable relief</li>
+        </ul>
+
+        <p><strong>Arbitration Rules:</strong></p>
+        <ul>
+            <li>Administered by the <strong>American Arbitration Association (AAA)</strong></li>
+            <li>Conducted under AAA's Consumer Arbitration Rules</li>
+            <li>Rules: <a href="https://www.adr.org" target="_blank">https://www.adr.org</a></li>
+        </ul>
+
+        <p><strong>Costs:</strong></p>
+        <ul>
+            <li>We pay AAA fees for claims under $10,000</li>
+            <li>Each party pays their own attorney fees (unless arbitrator awards them)</li>
+        </ul>
+
+        <p><strong>Class Action Waiver:</strong></p>
+        <ul>
+            <li>You agree to resolve disputes on an <strong>individual basis only</strong></li>
+            <li><strong>No class actions, class arbitrations, or representative actions</strong></li>
+        </ul>
+
+        <p><strong>Opt-Out Right:</strong> You may opt out of arbitration by emailing <a href="mailto:legal@dayflowjournal.app">legal@dayflowjournal.app</a> within <strong>30 days</strong> of first using the app with subject "Arbitration Opt-Out".</p>
+
+        <h3>16.5 Other Countries</h3>
+        <p>These Terms are governed by the laws of the country in which the App operator is established, without prejudice to mandatory consumer protections.</p>
+
+        <h2>17. Contact Information</h2>
+        <p>
+            <strong>Support:</strong> <a href="mailto:support@dayflowjournal.app">support@dayflowjournal.app</a><br>
+            <strong>Legal:</strong> <a href="mailto:legal@dayflowjournal.app">legal@dayflowjournal.app</a><br>
+            <strong>Privacy:</strong> <a href="mailto:privacy@dayflowjournal.app">privacy@dayflowjournal.app</a>
+        </p>
+
+        <h2>18. Changes to These Terms</h2>
+        <p>We may update these Terms from time to time. When changes are made:</p>
+        <ul>
+            <li>We will update the "Last Updated" date</li>
+            <li>Material changes will be announced in-app with 30 days' notice</li>
+            <li>Continued use after changes take effect constitutes acceptance</li>
+        </ul>
+        
+        <p><strong>Your Options:</strong></p>
+        <ul>
+            <li><strong>Accept:</strong> Continue using the app</li>
+            <li><strong>Reject:</strong> Cancel subscription and stop using the app</li>
+            <li><strong>Request refund</strong> if material changes significantly affect you</li>
+        </ul>
+
+        <h2>19. Acknowledgement</h2>
+        
+        <div class="checklist">
+            <p>By using DayflowJournal, you acknowledge that:</p>
+            <ul>
+                <li>You have read and understood these Terms of Service</li>
+                <li>You have read and understood our Privacy Policy</li>
+                <li>You agree to be bound by these Terms</li>
+                <li>You meet the age requirement (13+ years old)</li>
+                <li>You will comply with all applicable laws</li>
+                <li>You understand the free tier 7-day limitation</li>
+                <li>You accept all disclaimers and limitations of liability</li>
+            </ul>
+            <p><strong>If you do not agree to these Terms, do not use DayflowJournal.</strong></p>
+        </div>
+
+        <h2>Appendix A: Apple Subscription Disclosure</h2>
+        <p><strong>Required by Apple for Auto-Renewable Subscriptions:</strong></p>
+
+        <div class="pricing-table">
+            <h3>Auto-Renewal Details</h3>
+            <ul>
+                <li>Payment will be charged to your Apple Account at confirmation of purchase</li>
+                <li>Subscription automatically renews unless auto-renew is turned off at least 24 hours before the end of the current period</li>
+                <li>Account will be charged for renewal within 24 hours prior to the end of the current period</li>
+                <li>Subscriptions may be managed by the user and auto-renewal may be turned off by going to Account Settings after purchase</li>
+                <li>Any unused portion of a free trial period, if offered, will be forfeited when the user purchases a subscription</li>
+            </ul>
+
+            <h3>Current Pricing</h3>
+            <ul>
+                <li><strong>Monthly Premium:</strong> $6.99 USD/month (after 7-day free trial)</li>
+                <li><strong>Annual Premium:</strong> $44.99 USD/year (after 7-day free trial)</li>
+                <li><strong>Lifetime Premium:</strong> $149 USD one-time (no trial)</li>
+            </ul>
+
+            <h3>Manage Subscriptions</h3>
+            <p><strong>iOS Settings → [Your Name] → Subscriptions → DayflowJournal Premium</strong></p>
+
+            <h3>Request Refunds</h3>
+            <p><a href="https://reportaproblem.apple.com" target="_blank">https://reportaproblem.apple.com</a> or contact Apple Support</p>
+
+            <h3>More Information</h3>
+            <ul>
+                <li><strong>Terms of Service:</strong> <a href="https://dayflowjournal.app/terms" target="_blank">https://dayflowjournal.app/terms</a></li>
+                <li><strong>Privacy Policy:</strong> <a href="https://dayflowjournal.app/privacy" target="_blank">https://dayflowjournal.app/privacy</a></li>
+                <li><strong>Support:</strong> <a href="mailto:support@dayflowjournal.app">support@dayflowjournal.app</a></li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p><strong>© DayflowJournal. All rights reserved.</strong></p>
+            <p style="margin-top: 20px;"><strong>This Terms of Service agreement is effective as of January 11, 2026.</strong></p>
+            <p><strong>Last Reviewed:</strong> January 11, 2026<br>
+            <strong>Next Scheduled Review:</strong> July 11, 2026</p>
+            <p style="margin-top: 20px;"><strong>Document ID:</strong> TOS-v1.2<br>
+            <strong>Compliance:</strong> Apple App Store Guidelines, COPPA, GDPR, CCPA, UK Consumer Rights Act</p>
+            
+            <div style="margin-top: 30px;">
+                <a href="index.html">← Back to Home</a> | 
+                <a href="privacy.html">View Privacy Policy →</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

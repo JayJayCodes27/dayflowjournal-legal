@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DayflowJournal Privacy Policy v1.2 - Your journal is private by design. Zero data collection.">
+    <meta name="robots" content="index, follow">
+    <title>Privacy Policy - DayflowJournal</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.7;
+            color: #1a1a1a;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 50px;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 3px solid #667eea;
+        }
+        
+        h1 {
+            font-size: 36px;
+            margin-bottom: 15px;
+            color: #1a1a1a;
+            font-weight: 700;
+        }
+        
+        .meta {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        
+        .version {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+        
+        .commitment {
+            background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+            padding: 30px;
+            border-radius: 12px;
+            margin: 30px 0;
+            border-left: 4px solid #667eea;
+        }
+        
+        .commitment h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+        
+        h2 {
+            font-size: 26px;
+            margin: 40px 0 20px 0;
+            color: #1a1a1a;
+            font-weight: 700;
+        }
+        
+        h3 {
+            font-size: 20px;
+            margin: 30px 0 15px 0;
+            color: #333;
+            font-weight: 600;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            color: #444;
+        }
+        
+        ul {
+            margin: 15px 0 20px 30px;
+            color: #444;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        strong {
+            color: #1a1a1a;
+            font-weight: 600;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        th, td {
+            padding: 14px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        th {
+            background: #667eea;
+            color: white;
+            font-weight: 600;
+        }
+        
+        tr:hover {
+            background: #f8f9fa;
+        }
+        
+        .highlight-box {
+            background: #fff9e6;
+            border-left: 4px solid #ffc107;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .promise-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin: 30px 0;
+        }
+        
+        .promise-box {
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        
+        .never-box {
+            background: #fff5f5;
+            border-left: 4px solid #ef4444;
+        }
+        
+        .always-box {
+            background: #f0fdf4;
+            border-left: 4px solid #22c55e;
+        }
+        
+        .promise-box h3 {
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        
+        .promise-box ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        
+        .footer {
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 2px solid #e0e0e0;
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .footer-note {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 12px;
+            margin: 30px 0;
+            text-align: center;
+        }
+        
+        a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .nav-links {
+            text-align: center;
+            margin: 30px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        
+        .nav-links a {
+            margin: 0 15px;
+            padding: 10px 20px;
+            display: inline-block;
+            background: white;
+            border-radius: 6px;
+            transition: all 0.3s;
+        }
+        
+        .nav-links a:hover {
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            transform: translateY(-2px);
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px 20px;
+            }
+            
+            h1 {
+                font-size: 28px;
+            }
+            
+            h2 {
+                font-size: 22px;
+            }
+            
+            .promise-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .nav-links a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                padding: 20px;
+            }
+            
+            .nav-links {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Privacy Policy</h1>
+            <div class="meta">
+                <strong>Effective Date:</strong> January 11, 2026<br>
+                <strong>Last Updated:</strong> January 11, 2026
+            </div>
+            <span class="version">Version 1.2</span>
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">← Home</a>
+            <a href="terms.html">Terms of Service</a>
+        </div>
+
+        <div class="commitment">
+            <h2>Our Core Privacy Commitment</h2>
+            <p><strong>DayflowJournal is built on one fundamental principle: your journal is private by design.</strong></p>
+            <p>DayflowJournal is designed so that your journal entries, photos, voice recordings, handwriting, mood data, and reflections are stored locally on your device and are not accessible to us under normal operation. We do not require accounts, do not operate cloud storage for journal content, and do not intentionally collect or transmit personal journal data to our servers.</p>
+        </div>
+
+        <h2>1. Information We Collect</h2>
+        
+        <h3>1.1 Data Stored Locally on Your Device</h3>
+        <p>The following data is stored locally on your iOS device using Apple's SwiftData framework and iOS system storage. This data is intended to remain on your device unless you choose to back it up or export it.</p>
+        
+        <p><strong>Journal Content</strong></p>
+        <ul>
+            <li>Text journal entries (typed, handwritten, or transcribed)</li>
+            <li>Handwriting data created using Apple Pencil (PKDrawing format)</li>
+            <li>Voice recordings (M4A audio files with timestamps and duration)</li>
+            <li>Voice transcriptions generated using Apple's Speech framework</li>
+            <li>Photos attached to entries (JPEG/PNG)</li>
+            <li>Basic metadata such as date and dimensions</li>
+            <li>Location (EXIF GPS) data is not extracted or stored by the app</li>
+        </ul>
+        
+        <p><strong>Mood & Reflection Data</strong></p>
+        <ul>
+            <li>Daily ratings and emotional tags</li>
+            <li>Day descriptors and color associations</li>
+            <li>Anticipation and outlook ratings</li>
+        </ul>
+        
+        <p><strong>Organizational Data</strong></p>
+        <ul>
+            <li>Tags, favorites, draft status</li>
+            <li>Prompt identifiers and prompt text</li>
+        </ul>
+        
+        <p><strong>App Settings (Stored via UserDefaults)</strong></p>
+        <ul>
+            <li>Visual preferences (themes, fonts, colors)</li>
+            <li>Journaling mode preferences</li>
+            <li>Audio and notification preferences</li>
+            <li>Privacy and security settings (biometric lock, timeouts)</li>
+            <li>Backup configuration flags</li>
+            <li>Onboarding and app version state</li>
+        </ul>
+
+        <h3>1.2 Data We Do Not Intentionally Collect</h3>
+        <p>DayflowJournal is designed so that we do not intentionally collect, access, or store:</p>
+        <ul>
+            <li>Names, email addresses, phone numbers, or account credentials</li>
+            <li>Journal content or attachments</li>
+            <li>Location or GPS data</li>
+            <li>Advertising identifiers (IDFA)</li>
+            <li>Device identifiers (UDID)</li>
+            <li>Analytics or usage tracking data</li>
+            <li>Crash reports or diagnostics</li>
+            <li>Behavioral tracking or profiling data</li>
+            <li>Social media or third-party integration data</li>
+        </ul>
+
+        <h3>1.3 Biometric Authentication</h3>
+        <p><strong>Face ID / Touch ID:</strong> When you enable biometric authentication to lock your journal:</p>
+        <ul>
+            <li>Biometric authentication is handled entirely by iOS LocalAuthentication framework</li>
+            <li>Your fingerprint or facial scan <strong>never leaves your device</strong> and is never accessed by our app</li>
+            <li>We only receive a success/failure result from iOS</li>
+            <li>Biometric data is stored in the Secure Enclave and managed by Apple</li>
+            <li>We cannot access, store, or transmit biometric data</li>
+            <li>Enabling biometric lock is <strong>optional</strong> and can be disabled at any time</li>
+        </ul>
+
+        <h2>2. How Your Data Is Used</h2>
+        
+        <h3>2.1 On-Device Processing</h3>
+        <p>DayflowJournal's features are designed to operate using on-device processing where supported by iOS and device capabilities. This includes:</p>
+        <ul>
+            <li>Text analysis and sentiment insights</li>
+            <li>Prompt personalization</li>
+            <li>Mood trend calculations</li>
+            <li>Search indexing</li>
+            <li>Handwriting recognition (OCR)</li>
+            <li>Voice transcription</li>
+            <li>Voice emotion analysis</li>
+            <li>Writing pattern analysis</li>
+        </ul>
+
+        <div class="highlight-box">
+            <p><strong>Important Note on Apple Framework Processing:</strong></p>
+            <p>Where supported by iOS and device capabilities, speech recognition, handwriting recognition, and natural language processing are performed on-device. However, in limited cases determined by Apple (such as language availability, system configuration, or network conditions), processing may be performed by Apple on its servers in accordance with Apple's Privacy Policy.</p>
+            <p><strong>We do not receive, access, or store any data processed by Apple.</strong> This processing is entirely controlled by Apple's system frameworks and is subject to Apple's privacy protections, not ours.</p>
+            <p>For complete details on Apple's data handling:</p>
+            <ul>
+                <li>Speech Framework: <a href="https://www.apple.com/privacy/" target="_blank">https://www.apple.com/privacy/</a></li>
+                <li>Vision Framework: <a href="https://www.apple.com/privacy/" target="_blank">https://www.apple.com/privacy/</a></li>
+                <li>Natural Language Framework: <a href="https://www.apple.com/privacy/" target="_blank">https://www.apple.com/privacy/</a></li>
+            </ul>
+        </div>
+
+        <h3>2.2 Premium Subscription Verification</h3>
+        <p>Premium purchases are processed by Apple via the App Store.</p>
+        <ul>
+            <li>Payment information is handled exclusively by Apple</li>
+            <li>We do not receive credit card or billing details</li>
+            <li>Subscription status is verified locally using Apple's StoreKit framework</li>
+            <li>Apple may collect purchase-related data as part of App Store transactions, which is not accessible to us</li>
+        </ul>
+
+        <h3>2.3 Notifications</h3>
+        <p>If enabled, DayflowJournal uses local notifications only:</p>
+        <ul>
+            <li>Notifications are generated and scheduled on your device</li>
+            <li>No remote push notifications are used</li>
+            <li>Notification content never includes journal entries</li>
+        </ul>
+
+        <h2>3. Data Storage and Security</h2>
+        
+        <h3>3.1 Local Storage</h3>
+        <ul>
+            <li>Journal data is stored in an encrypted database on your device</li>
+            <li>App data is protected by iOS sandboxing and file protection</li>
+            <li>Access is restricted to DayflowJournal only</li>
+        </ul>
+
+        <h3>3.2 Security Features</h3>
+        <ul>
+            <li>iOS file-level encryption</li>
+            <li>Optional biometric app lock</li>
+            <li>Optional preview hiding in the app switcher</li>
+            <li>No network transmission of journal content</li>
+        </ul>
+
+        <h3>3.3 Backups</h3>
+        <p>DayflowJournal does not operate its own backup servers.</p>
+        <ul>
+            <li>iCloud backups (if enabled) are managed by Apple</li>
+            <li>Finder/iTunes backups may include app data</li>
+            <li>Manual export is available and controlled by you</li>
+        </ul>
+
+        <h2>4. Third-Party Services</h2>
+        <p>DayflowJournal uses only Apple-provided system frameworks, such as:</p>
+        <ul>
+            <li>StoreKit</li>
+            <li>LocalAuthentication</li>
+            <li>UserNotifications</li>
+            <li>Speech</li>
+            <li>Vision</li>
+            <li>NaturalLanguage</li>
+            <li>SwiftData</li>
+            <li>PencilKit</li>
+            <li>AVFoundation</li>
+        </ul>
+        <p><strong>We do not use analytics SDKs, advertising SDKs, crash reporting tools, or third-party AI services.</strong></p>
+
+        <h2>5. Data Retention and Deletion</h2>
+        
+        <h3>5.1 Free Tier</h3>
+        <p>Free tier users retain the most recent 7 days of journal entries. By using the free tier of DayflowJournal, you acknowledge and agree that journal entries older than seven (7) days will be automatically deleted from your device. Deletion occurs locally and automatically.</p>
+
+        <h3>5.2 Premium Tier</h3>
+        <p>Premium users retain all entries indefinitely unless manually deleted or the app is uninstalled.</p>
+
+        <h3>5.3 Deletion Controls</h3>
+        <p>You may delete:</p>
+        <ul>
+            <li>Individual entries within the app</li>
+            <li>All data via in-app reset</li>
+            <li>All data by uninstalling the app</li>
+        </ul>
+        <p>Deleted data cannot be recovered unless restored from a device backup.</p>
+
+        <h2>6. Children's Privacy</h2>
+        <p>DayflowJournal is intended for users aged 13 and over. We do not knowingly collect personal data from children. Because data remains on-device, parental supervision is handled at the device level via iOS parental controls.</p>
+
+        <h2>7. Your Privacy Rights</h2>
+        
+        <h3>7.1 GDPR / UK GDPR</h3>
+        <p><strong>Limited Role as Data Controller:</strong> DayflowJournal's role as a data controller is strictly limited to determining the on-device processing required to provide app functionality. We do not receive, access, or store personal data on our own systems.</p>
+        <p>You may exercise your rights by:</p>
+        <ul>
+            <li>Viewing or exporting your data</li>
+            <li>Editing or deleting entries</li>
+            <li>Uninstalling the app</li>
+        </ul>
+
+        <h3>7.2 CCPA & Other Laws</h3>
+        <p>We do not sell personal information. We do not share personal data with third parties for advertising or profiling purposes.</p>
+
+        <h2>8. International Transfers</h2>
+        <p>DayflowJournal does not transfer journal data internationally. Apple may process payment data internationally as part of App Store transactions, in accordance with Apple's Privacy Policy.</p>
+
+        <h2>9. Changes to This Policy</h2>
+        <p>We may update this policy to reflect changes in the app or legal requirements. Material changes will:</p>
+        <ul>
+            <li>Be announced in-app</li>
+            <li>Be published before taking effect</li>
+            <li>Require consent where legally required</li>
+        </ul>
+
+        <h2>10. Contact Information</h2>
+        <p><strong>Legal Entity:</strong> DayflowJournal<br>
+        <strong>Operated by:</strong> [Your Full Legal Name or Company Name]<br>
+        <strong>Registered Address:</strong> [Business or Registered Office Address]<br>
+        <strong>Country:</strong> United Kingdom</p>
+        
+        <p><strong>Privacy & Support Contact:</strong><br>
+        Email: <a href="mailto:privacy@dayflowjournal.app">privacy@dayflowjournal.app</a><br>
+        Website: <a href="https://dayflowjournal.app" target="_blank">https://dayflowjournal.app</a></p>
+
+        <h2>11. App Store Privacy Disclosure</h2>
+        <p>When downloading DayflowJournal from the Apple App Store, you'll see:</p>
+        
+        <p><strong>Privacy Nutrition Label:</strong></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>DayflowJournal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Data Linked to You</strong></td>
+                    <td>None</td>
+                </tr>
+                <tr>
+                    <td><strong>Data Used to Track You</strong></td>
+                    <td>None</td>
+                </tr>
+                <tr>
+                    <td><strong>Data Not Linked to You</strong></td>
+                    <td>None</td>
+                </tr>
+                <tr>
+                    <td><strong>Data Collected</strong></td>
+                    <td>None</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>We collect zero data. This is verifiable in App Store Connect.</strong></p>
+        <p><strong>Apple's Data Collection:</strong> Apple may collect purchase-related data (transaction IDs, subscription status) for App Store transactions. This data is collected by Apple, not by us, and we do not have access to it. Refer to Apple's Privacy Policy for details on their data handling practices.</p>
+
+        <h2>12. Permissions Requested</h2>
+        <p>DayflowJournal may request the following iOS permissions:</p>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Permission</th>
+                    <th>Purpose</th>
+                    <th>Required?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Photos</strong></td>
+                    <td>To attach images to journal entries</td>
+                    <td>Optional</td>
+                </tr>
+                <tr>
+                    <td><strong>Microphone</strong></td>
+                    <td>To record voice journal entries</td>
+                    <td>Optional</td>
+                </tr>
+                <tr>
+                    <td><strong>Camera</strong></td>
+                    <td>To take photos directly in the app</td>
+                    <td>Optional</td>
+                </tr>
+                <tr>
+                    <td><strong>Face ID/Touch ID</strong></td>
+                    <td>To lock journal with biometrics</td>
+                    <td>Optional</td>
+                </tr>
+                <tr>
+                    <td><strong>Notifications</strong></td>
+                    <td>For daily journaling reminders</td>
+                    <td>Optional</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>All permissions are optional.</strong> You can deny all permissions and still use core journaling features (typing, handwriting).</p>
+
+        <h2>13. Commitment to Privacy</h2>
+        <p><strong>Our Promise to You:</strong></p>
+        
+        <div class="promise-grid">
+            <div class="promise-box never-box">
+                <h3>We Will NEVER:</h3>
+                <ul>
+                    <li>❌ Collect your journal content</li>
+                    <li>❌ Track your usage behavior</li>
+                    <li>❌ Sell your data to third parties</li>
+                    <li>❌ Use your data for advertising</li>
+                    <li>❌ Train AI models on your writing</li>
+                    <li>❌ Require account creation</li>
+                    <li>❌ Store data on our servers</li>
+                </ul>
+            </div>
+            
+            <div class="promise-box always-box">
+                <h3>We Will ALWAYS:</h3>
+                <ul>
+                    <li>✅ Process data on-device only</li>
+                    <li>✅ Give you full control over your data</li>
+                    <li>✅ Be transparent about any changes</li>
+                    <li>✅ Respect your privacy rights</li>
+                    <li>✅ Use privacy-respecting Apple frameworks</li>
+                    <li>✅ Keep your journal private</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-note">
+            <p><strong>Thank you for trusting DayflowJournal with your thoughts and reflections. Your privacy is the foundation of everything we build.</strong></p>
+        </div>
+
+        <div class="footer">
+            <p><strong>This Privacy Policy is effective as of January 11, 2026.</strong></p>
+            <p><strong>Last Reviewed:</strong> January 11, 2026<br>
+            <strong>Next Scheduled Review:</strong> July 11, 2026</p>
+            <p style="margin-top: 20px;"><strong>Document ID:</strong> PRIVACY-POLICY-v1.2<br>
+            <strong>Compliance:</strong> GDPR, CCPA, COPPA, UK GDPR, Apple App Store Guidelines</p>
+            
+            <div style="margin-top: 30px;">
+                <a href="index.html">← Back to Home</a> | 
+                <a href="terms.html">View Terms of Service →</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
